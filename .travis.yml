@@ -5,4 +5,7 @@ r:
   - oldrel
   - release
   - devel
+bioc_packages:
+  - Rgraphviz
+  - graph
 
