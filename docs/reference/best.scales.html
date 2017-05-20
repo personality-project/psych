@@ -236,8 +236,7 @@ Suppose that you have a "dictionary" of the many variables in a study but you wa
 #&gt; 7  Stability Emotional Stability         Balance     -1    B5:N
 #&gt; 8 Plasticity        Extraversion     Sociability     -1    B5:E
 #&gt; 9  Stability Emotional Stability         Balance     -1    B5:N
-#&gt; </div><div class='input'><span class='no'>f5</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='fa.html'>fa</a></span>(<span class='no'>bfi</span>,<span class='fl'>5</span>)
-<span class='no'>m</span> <span class='kw'>&lt;-</span> <span class='fu'>colMeans</span>(<span class='no'>bfi</span>,<span class='kw'>na.rm</span><span class='kw'>=</span><span class='fl'>TRUE</span>)
+#&gt; </div><div class='input'><span class='no'>f5</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='fa.html'>fa</a></span>(<span class='no'>bfi</span>,<span class='fl'>5</span>)</div><div class='output co'>#&gt; <span class='message'>Loading required namespace: GPArotation</span></div><div class='input'><span class='no'>m</span> <span class='kw'>&lt;-</span> <span class='fu'>colMeans</span>(<span class='no'>bfi</span>,<span class='kw'>na.rm</span><span class='kw'>=</span><span class='fl'>TRUE</span>)
 <span class='fu'>item.lookup</span>(<span class='no'>f5</span>,<span class='no'>m</span>,<span class='kw'>dictionary</span><span class='kw'>=</span><span class='no'>bfi.dictionary</span>[<span class='fl'>2</span>])</div><div class='output co'>#&gt;       MR2   MR1   MR3   MR5   MR4 means  com   h2
 #&gt; N1   0.78  0.09  0.00 -0.12 -0.03  2.93 1.08 0.61
 #&gt; N5   0.53 -0.15  0.01  0.21 -0.17  2.97 1.70 0.37
